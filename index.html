@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JWST Quasar International Collaboration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #222;
+
+            /* Background image */
+            background-image: url('images/aspire_j0305.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: rgba(8, 44, 68, 0.95);
+            padding: 12px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Badge for upcoming events */
+        .upcoming-badge {
+          display: inline-block;
+          padding: 0.25rem 0.75rem;
+          background: #FFCB05;
+          color: #00274C;
+          border-radius: 12px;
+          font-size: 0.85rem;
+          font-weight: bold;
+          margin-left: 1rem;
+          animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.05); }
+          100% { transform: scale(1); }
+        }
+
+        /* Header with logos */
+        header {
+            background-color: rgba(11, 60, 93, 0.9);
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Make all logos the same visual size */
+        .logo {
+            width: 130px;            /* pick what looks best */
+            height: 130px;
+            border-radius: 6px;
+            object-fit: cover;    /* keeps aspect ratio */
+        }
+
+        .header-text {
+            text-align: center;
+            flex: 1;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        .header-text p {
+            margin-top: 8px;
+            font-size: 1.1em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 6px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #0b3c5d;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background-color: rgba(234, 234, 234, 0.95);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#meeting">Meetings</a></li>
+        <!-- <li><a href="#program">Programs</a></li>-->
+        <li><a href="#collaboration">Team</a></li>
+    </ul>
+</nav>
+
+<header>
+    <div class="header-container">
+        <img src="images/jwst.jpg" alt="Left Logo" class="logo">
+
+        <div class="header-text">
+            <h1>EREBUS Collaboration</h1>
+            <p>Epoch of Reionization and Early Black holes in the Universe Studies</p>
+        </div>
+
+        <img src="images/erebus.png" alt="Right Logo" class="logo">
+    </div>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About the Collaboration</h2>
+        <p>
+            The <strong>EREBUS Collaboration</strong> has been a long journey in the making, beginning with our first JWST workshop on Santa Barbara Street in February 2017,
+            and continuing through the memorable Ringberg Black Hole meeting in March 2020. This collaboration was officially formed in August 2022 by merging teams from two JWST Cycle 1 medium-size programs:
+            <strong>Quasar Frontier (GO 1764)</strong> and <strong>ASPIRE (GO 2078)</strong>.
+        </p>
+        <p>
+        We got our first JWST data in August 2022 and initiated five dedicated working groups, each focused on a specific research area, with the five PIs of the two JWST programs serving as the steering committee. These working groups coordinate discussions on projects and papers. Each steering committee member has committed to overseeing the activities of one of these five working groups: </p>
+            <ul>
+                <li><strong>Black Hole Mass and AGN Physics (Coordinator: Eduardo Bañados)</strong></li>
+                <li><strong>Galaxies and Ancillary Science (Coordinator: Xiaohui Fan)</strong></li>
+                <li><strong>Quasar Environment and Large-Scale Structure (Coordinator: Feige Wang)</strong></li>
+                <li><strong>Quasar Host Galaxies (Coordinator: Jinyi Yang)</strong></li>
+                <li><strong>Reionization and the Intergalactic Medium (Coordinator: Joseph Hennawi)</strong></li>
+            </ul>
+        </p>
+        <p>
+        We have made many exciting scientific discoveries and have had many more JWST programs, as well as other multi-wavelength follow-up programs, approved.
+        Our collaboration continues to grow and has now attracted more than 100 scientists, including a significant fraction of students and postdocs.
+        The working groups and their research topics also continue to evolve over time. In preparation for the upcoming large-scale surveys with <strong>Euclid, Roman, and Rubin</strong>,
+        the collaboration is positioning itself to enter a new stage of cosmic discoveries.
+        </p>
+    </section>
+
+    <section id="meeting">
+        <h2>EREBUS Collaboration Meetings</h2>
+        <h3>2026 EREBUS collaboration meeting <span class="upcoming-badge">Upcoming</span></h3>
+        <p>
+        <strong>Date:</strong> 3–7 August 2026<br>
+        <strong>Place:</strong> Ann Arbor, Michigan (United States)<br>
+        <strong>Main topics:</strong>
+        With the start of Euclid and Rubin’s science operations and the forthcoming Roman launch, we envision dedicated sessions focused on how our collaboration can continue to lead high-redshift quasar/AGN and galaxy studies in the Euclid + LSST + Roman + JWST era. In addition, we will hold talks on ongoing and planned JWST-related projects and discussions in preparation for JWST Cycle 6 proposals.
+        <br>
+            <a href="erebus2026.html" target="_blank">
+                Learn more about this meeting
+            </a>
+        </p>
+        <h3>2025 EREBUS collaboration meeting</h3>
+        <p>
+        <strong>Date:</strong> 18–20 June 2025<br>
+        <strong>Place:</strong> Strada Maggiore 34, 40125, Bologna (Italy)<br>
+        <strong>Main topics:</strong>
+        The large international collaborations EREBUS and COSMOS-3D, together with astronomers generally interested in the high-redshift Universe will meet in Bologna to review findings from observations collected in recent years and brainstorm new science ideas in preparation for JWST Cycle 5. To facilitate focused interactions on projects related to high redshift quasars, their host galaxies, and their surrounding environments, the meeting will be open to selected guests only.
+        <br>
+            <a href="https://sites.google.com/inaf.it/erebuscosmos3d-2025" target="_blank">
+                Learn more about this meeting
+            </a>
+        </p>
+        <h3>2024 EREBUS collaboration meeting </h3>
+        <p>
+        <strong>Date:</strong> 25–27 September 2024<br>
+        <strong>Place:</strong> Hilo Hawaiian Hotel, Hilo, Hawai'i (United States)<br>
+        <strong>Main topics:</strong>
+        The large international collaboration EREBUS and astronomers generally interested in the high-redshift Universe will meet in Hilo to review findings from observations collected in recent years and brainstorm new science ideas in preparation for JWST Cycle 4. To facilitate focussed interactions on projects related to high redshift quasars, their host galaxies, and their surrounding environments, the meeting will be open to selected guests only.
+        <br>
+            <a href="https://noirlab.edu/science/events/websites/erebus-jwst-2024" target="_blank">
+                Learn more about this meeting
+            </a>
+        </p>
+        <h3>2023 EREBUS collaboration meeting </h3>
+        <p>
+        <strong>Date:</strong> 3–6 October 2023<br>
+        <strong>Place:</strong> BIOSPHERE 2, Tucson, Arizona (United States)<br>
+        <strong>Main topics:</strong>
+        EREBUS is an international collaboration of astronomers broadly interested in high-redshift quasars, their host galaxies, and their surrounding environments. In preparation for JWST Cycle 3, we would like to have everyone together in sunny Arizona to review what we have learned from our initial datasets and brainstorm yet more science ideas.
+        <br>
+        <span style="color: red;">Note</span>: This is the first EREBUS collaboration meeting after they got JWST data in the Summer of 2022.
+        <br>
+            <a href="https://erebus2023.github.io/index.html" target="_blank">
+                Learn more about this meeting
+            </a>
+        </p>
+        <h3>2020 Winter Ringberg workshop </h3>
+        <p>
+        <strong>Date:</strong> October 2020<br>
+        <strong>Place:</strong> Ringberg Castle (Germany)<br>
+        <strong>Main topics:</strong>
+        Our goal is to bring together a selected group of observational and theoretical experts in the field of the formation and evolution of the first massive galaxies and black holes in the Universe.
+        This timely workshop gathers the experts in the field to discuss the best strategies and prepare strong JWST Cycle 2 proposals.
+        <br>
+        </p>
+        <h3>2020 Spring Ringberg workshop: Black holes and galaxies at the edge of the Universe </h3>
+        <p>
+        <strong>Date:</strong> 1–6 March 2020<br>
+        <strong>Place:</strong> Ringberg Castle (Germany)<br>
+        <strong>Main topics:</strong>
+        Our goal is to bring together a selected group of observational and theoretical experts in the field of the formation and evolution of the first massive galaxies and black holes in the Universe.
+        This timely workshop gathers the experts in the field to discuss the best strategies and prepare strong JWST Cycle 1 proposals.
+        <br>
+        <span style="color: red;">Note</span>: The original JWST Cycle 1 call for proposal was delayed due to pandemic.
+        </p>
+        <h3>2017 JWST ERS proposal Planning workshop </h3>
+        <p>
+        <strong>Date:</strong> February 2017<br>
+        <strong>Place:</strong> Pasadena (United States)<br>
+        <strong>Main topics:</strong>
+        Our goal is to bring together a selected group of observational and theoretical experts in the field of the formation and evolution of the first massive galaxies and black holes in the Universe.
+        This timely workshop gathers the experts in the field to discuss the best strategies and prepare strong JWST ERS proposals.
+        <br>
+        <span style="color: red;">Note</span>: The original JWST ERS call for proposal was delayed.
+        </p>
+    </section>
+
+    <!--
+    <section id="program">
+        <h2>Approved JWST programs</h2>
+        <h3>Quasar frontier program  (GO 1764)</h3>
+        <p>
+        <strong>Principal Investigator (PI):</strong> Xiaohui Fan, Jinyi Yang, and Eduardo Banados<br>
+            The Quasar frontier program is a JWST Cycle 1 program which performs a comprehensive study of the three most
+            distant quasars. By employing a combination of imaging and spectroscopic observations using NIRCam, NIRSpec, MIRI and
+            NIRISS, this program will (1) detect the stellar continuum and nebular emission of quasar host galaxies only 680 Myr after the Big Bang, to probe
+            host galaxy assembly and to search for signatures of outflow and feedback, (2) map the large scale quasar environment, to test quasar formation
+            models in the context of early structure formation, (3) yield reliable estimates of the SMBH masses and constrain physical properties of the quasar
+            broad-line regions, and (4) provide the most accurate measurement of the IGM neutral fraction at z=7.5 and detect weak metal absorption features, to
+            map the history of reionization and IGM enrichment.
+            <br>
+            <a href="https://www.stsci.edu/jwst-program-info/download/jwst/pdf/1764/" target="_blank">
+                Learn more about this program
+            </a>
+        </p>
+        <h3>ASPIRE program  (GO 2078)</h3>
+        <p>
+        <strong>Principal Investigator (PI):</strong> Feige Wang, Joseph Hennawi, and Xiaohui Fan<br>
+        This is a multiwavelength redshift survey with observations of 25 quasars at z>6.5.  It will
+        resolve the long-standing question of whether the earliest supermassive black holes (SMBHs) reside in the most massive dark matter halos
+        and inhabit large scale galaxy overdensities. This program will simultaneously image the host galaxies and close companions of quasars,
+        measure the masses of the central SMBHs and characterize quasar feedback, providing unprecedented constraints on the connection between
+        SMBHs and their hosts as well as their primordial environment. This program will also provide unparalleled constraints on cosmic reionization and
+        galaxy formation by measuring ionizing photon escape fractions of faint galaxies and probing the circumgalactic media of high-redshift galaxies.
+            <br>
+            <a href="https://www.stsci.edu/jwst-program-info/download/jwst/pdf/2078/" target="_blank">
+                Learn more about this program
+            </a>
+            <br>
+            <a href="https://aspire-quasar.github.io" target="_blank">
+                Program website
+            </a>
+        </p>
+
+    </section>
+    -->
+
+    <section id="collaboration">
+        <h2>International Team</h2>
+        <p>
+            Our collaboration includes scientists from the planet Earth, fostering open and inclusive scientific exchange.
+        </p>
+    </section>
+
+
+</main>
+
+<footer>
+    © 2026 EREBUS Collaboration
+</footer>
+
+</body>
+</html>

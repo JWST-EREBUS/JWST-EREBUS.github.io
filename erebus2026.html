@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EREBUS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #222;
+
+            /* Background image */
+            background-image: url('images/aspire_j0305.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: rgba(8, 44, 68, 0.95);
+            padding: 12px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header with logos */
+        header {
+            background-color: rgba(11, 60, 93, 0.9);
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            gap: 10px;        /* increased spacing */
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Make all logos the same visual size */
+        .logo {
+            width: 130px;            /* pick what looks best */
+            height: 130px;
+            border-radius: 6px;
+            object-fit: cover;    /* keeps aspect ratio */
+        }
+
+        /* Optional: center text block */
+        .header-text {
+            text-align: center;
+            flex: 1;                /* lets text take remaining space */
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        .header-text p {
+            margin-top: 8px;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 6px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #0b3c5d;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background-color: rgba(234, 234, 234, 0.95);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about">Rationale</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#program">Programs</a></li>
+        <li><a href="#participants">Participants</a></li>
+        <li><a href="#organizer">Organizers</a></li>
+        <li><a href="#venues">Venues</a></li>
+        <li><a href="#lodging">Lodging</a></li>
+        <li><a href="#food">Food & Transportation</a></li>
+    </ul>
+</nav>
+
+<header>
+    <div class="header-container">
+        <img src="images/telescopes.png" alt="Left Logo" class="logo">
+
+        <div class="header-text">
+            <h1>2026 EREBUS Collaboration Meeting</h1>
+            <p><strong>Aug. 3-7, 2026 @ Ann Arbor, Michigan, United States</strong></p>
+        </div>
+
+        <img src="images/erebus.png" alt="Right Logo" class="logo">
+        <img src="images/U-M_Logo-Hex.png" alt="Right Logo" class="logo">
+    </div>
+</header>
+
+
+<main>
+
+    <section id="about">
+        <h2>Rationale</h2>
+        <!--<p>
+        Since the first EREBUS collaboration meeting in February 2017, subsequent meetings have been held at Ringberg Castle (Germany) in March 2020 and October 2022 in preparation for JWST Cycles 1 and 2; in Tucson (USA) in October 2023 for JWST Cycle 3; in Hilo (USA) in September 2024 in preparation for the JWST Cycle 4 call for proposals; and in Bologna (Italy) to prepare JWST Cycle 5 proposals and the JWST Cycle 3 COSMOS-3D large program. Thanks to these community efforts, the EREBUS team has gained a leadership position in the exploitation of JWST for the study of high-redshift quasars, with many programs approved across multiple cycles.
+        </p>-->
+        <p>
+        The 2026 EREBUS Collaboration Meeting aims to facilitate in-depth discussions of the scientific exploitation of ongoing JWST programs led by the EREBUS team, and to plan future
+        large-scale initiatives with <strong>JWST, Euclid, Rubin, and Roman</strong>. With the start of Euclid and Rubin science operations,
+        and the forthcoming launch of Roman, we are entering a transformative period that offers unprecedented opportunities to expand our understanding of the early Universe.
+        The meeting will include dedicated sessions focused on how the collaboration can continue to lead studies of high-redshift quasars, AGNs, and galaxies in the
+        data intensive era, while strategically preparing for synergies with the next generation of extremely large telescopes.
+        </p>
+        <p>
+        This meeting will be held in Ann Arbor, Michigan, USA, home to the University of Michigan. The <a href="https://lsa.umich.edu/astro" target="_blank">University of Michigan Department of Astronomy</a>
+        is an active member of four international consortia developing instrumentation for the European Southern Observatory’s
+        Extremely Large Telescope, which is currently planning for science operations in 2029. The department is committed to maintain a supportive and welcoming climate, and embrace the goal of training
+        the next generations of astronomers. These values closely align with the EREBUS collaboration’s vision of promoting scientific discovery while cultivating a supportive community for early-career
+        researchers. Hosting the collaboration meeting on the University of Michigan campus therefore provides an excellent setting for advancing EREBUS’s scientific and community-building goals in this exciting era.
+        </p>
+        <p>
+        We gratefully acknowledge the strong support provided by the Department of Astronomy, University of Michigan! <span style="color:#00274C; font-weight:bold;">Go Blue! Astronomy is for everyone!</span>
+        </p>
+        <p>
+        <a href="index.html" target="_blank">
+            Learn more about the EREBUS collaboration
+        </a>
+        <br>
+
+        </p>
+    </section>
+
+    <section id="dates">
+        <h2>Important Dates</h2>
+        <p>
+        <ul>
+            <!-- <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2025 Nov. 14:</span> Pre-registration survey deadline. <a href="https://forms.gle/MQo372LLBNEy4JGq6" target="_blank">Call for Intent</a></li>-->
+            <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2026 Feb. 18:</span> Registration opens: <a href="https://forms.gle/vFVNSdXoXBVQKMHq9" target="_blank">Registration Form</a></li>
+            <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2026 May. 1:</span> Registration close.</li>
+            <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2026 Aug. 3:</span> In person registration and reception at Michigan League</li>
+            <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2026 Aug. 4-5:</span> EREBUS meeting talks at Michigan League</li>
+            <li><span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">2026 Aug. 6-7:</span> EREBUS meeting talks and discussions at the Department of Astronomy, University of Michigan</li>
+        </ul>
+        </p>
+    </section>
+
+    <section id="program">
+        <h2>Programs</h2>
+        <p>
+        To be updated.
+        </p>
+    </section>
+
+    <section id="participants">
+        <h2>Participants</h2>
+        <p>
+        To be updated.
+        </p>
+    </section>
+
+    <section id="organizer">
+        <h2>Local Organizers</h2>
+        <ul>
+            <li><span style="color:#00274C; font-weight: bold;">Hyunseop (Joseph) Choi</li>
+            <li><span style="color:#00274C; font-weight: bold;">Olivier Gilbert</li>
+            <li><span style="color:#00274C; font-weight: bold;">Bingcheng Jin</li>
+            <li><span style="color:#00274C; font-weight: bold;">Xiangyu Jin</li>
+            <li><span style="color:#00274C; font-weight: bold;">Feige Wang</span></li>
+            <li><span style="color:#00274C; font-weight: bold;">Jinyi Yang</span></li>
+        </ul>
+    </section>
+
+    <section id="venues">
+        <h2>Venues</h2>
+        <p>The Monday reception and the first two days of the meeting (Tuesday and Wednesday) will be held at the <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Michigan League</span>. After that, we will move to the <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Department of astronomy</span>, where we have additional small conference rooms available for breakout sessions. The Michigan League is only 6 minutes walk (about 500 meters) from/to the department of astronomy.
+        </p>
+        <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Michigan League</span> is located at 911 N University Ave, Ann Arbor, MI 48109.
+        <iframe
+          src="https://www.google.com/maps?q=Michigan+League+911+N+University+Ave+Ann+Arbor+MI+48109&t=k&z=18&output=embed"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </p>
+        <p>
+        <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Department of astronomy</span> is located at the third floor of West Hall, University of Michigan.
+        <iframe
+          src="https://www.google.com/maps?q=University+of+Michigan+Astronomy+Department+Ann+Arbor+MI&t=k&z=18&output=embed"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </p>
+    </section>
+
+    <section id="lodging">
+        <h2>Lodging</h2>
+        <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;"><strong>Ann Arbor is a very popular destination in the summer, please book your hotel at your earliest convience!</strong></span>
+        <p>
+        We have blocked <strong>20 rooms</strong> at the <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Michigan League</span>, where the first two days of the meeting will be held.
+        Please contact <a href="https://inn.studentlife.umich.edu" target="_blank">the Inn at the Michigan League</a> directly to book your room
+        with the group booking block code we provided in this <a href="https://docs.google.com/spreadsheets/d/1XJmi9vyt_s76FA_8SSQhyTb6wGxMyaCZJQRu6H7qDew/edit?usp=sharing" target="_blank">spreadsheet</a>. Please make your reservation before <strong>June 30th</strong>. After this cutoff date, the hotel will release the rooms for general sale and the price could increase.
+        Please note that only <strong>eight</strong> King rooms are available for the night of Aug. 7, so please make your reservation early if you plan to stay for the whole week!
+        The room rates are as follows:
+        <ul>
+            <li><span style="color:#00274C; font-weight: bold;">Standard King: $190.00</span></li>
+            <li><span style="color:#00274C; font-weight: bold;">Corner King: $200.00</span></li>
+            <li><span style="color:#00274C; font-weight: bold;">Double: $190.00</span></li>
+            <li><span style="color:#00274C; font-weight: bold;">King Accessible: $190.00</span></li>
+        </ul>
+        The rate includes breakfast (grab and go style) but does not include fees for cots, cribs, refrigerators, parking passes ($15 per night), and additional adults.
+        </p>
+        <p>
+        We have blocked <span style="color:#00274C; font-weight: bold;">10 rooms (mix of Kings and Queens)</span> at the <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Graduate by Hilton Hotel</span>. This 4-star hotel is within walking distance of the conference venues, but it is very pricey. The group rate is <span style="color:#00274C; font-weight: bold;">$349/night</span> (about $10 cheaper than public rates) and does not include parking and breakfast. We're still negotiating with the hotel to see if you can get a better deal.
+        </p>
+        <p>
+        We have also blocked <span style="color:#00274C; font-weight: bold;">15 King Studio Suites</span> at the <span style="background-color:#FFCB05; color:#00274C; font-weight: bold;">Homewood Suites by Hilton Ann Arbor</span> at a discount rate of <span style="color:#00274C; font-weight: bold;">$209</span> (about $50 cheaper than public rates) per night with free parking and breakfast. Please make your reservation before <strong>June 30th</strong>. The hotel locates at 2457 S. State Street, Ann Arbor, MI 48104. You can receive the discount by booking your stay through <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=ARBASHW&arrivalDate=2026-08-02&departureDate=2026-08-08&groupCode=jws&room1NumAdults=1&displayCurrency=USD&aarpRate=" target="_blank">this link</a>. The default dates are from Aug. 2nd to Aug. 8th, but you can change the dates by clicking "Edit stay".
+        </p>
+        <p>
+        Most 3-star+ hotels in Ann Arbor are quite expensive in August, so sharing rooms is an excellent option. On a more budget-friendly side, there are a few cheaper options on South State Street close to the I-94 and the Briarwood Mall.
+        <strong>Please check out this <a href="https://docs.google.com/spreadsheets/d/1XJmi9vyt_s76FA_8SSQhyTb6wGxMyaCZJQRu6H7qDew/edit?usp=sharing" target="_blank">spreadsheet</a> for more information.</strong>
+        </p>
+    </section>
+
+    <section id="food">
+        <h2>Food and Transportation</h2>
+        <p>
+        <strong>Transportation to/from Airport:</strong> You can find lots of information on the <a href="https://lsa.umich.edu/lctp/visitor-information.html" target="_blank">LCTP visitor info site</a>. The closest airport is the Detroit Metro International Airport (DTW), which is 30-40 mins away by bus/taxi/Uber and has good flight connections worldwide.
+        <ul>
+            <li><span style="color:#00274C; font-weight: bold;">Michigan Flyer bus</li> The cheapest way to get from the airport to the city is <a href="https://www.michiganflyer.com/" target="_blank">Michigan Flyer bus</a>. The cost is about $15, and you can book your seat online ahead of time. The bus runs from both terminals at DTW and drops you off at Blake Transit Center in downtown Ann Arbor, a relatively short walk from the site of the central campus. In case your lodging is not within walking distance from there, taking the Flyer to Ann Arbor and then getting an Uber ride to the hotel is a good option. The schedule of the bus can be found <a href="https://www.michiganflyer.com/" target="_blank">here</a>. For arriving in Ann Arbor, refer to the Westbound table. For returning to DTW, refer to the Eastbound one.
+            <li><span style="color:#00274C; font-weight: bold;">Other ways to get to Ann Arbor</li>An Uber/Lyft ride from the airport costs $50-60. A taxi should cost $70 or so. If you want to travel in style, a <a href="https://dtwtaxilimo.com" target="_blank">Metrocar</a> (with a uniformed driver) should cost slightly more, in the $85 ballpark.
+        </ul>
+        </p>
+        <p>
+        <strong>Local transportation:</strong>
+        <a href="https://docs.google.com/document/d/1aVriQKh6yZRAKaqDPXAGsnfcHDx8pbwA1yRM2afvudg/edit?usp=sharing" target="_blank">This document</a> provides you more information about transportation.
+        </p>
+        <p>
+        <strong>Food:</strong> <a href="https://docs.google.com/spreadsheets/d/1-TWcRIX-E16ox1kqI6AtBh1whkj0Y3qS50qSGRZoAho/edit?usp=sharing" target="_blank">This list</a> contains a number of good restaurants in Ann Arbor.
+        </p>
+        <p>
+        <strong>Things to do in Ann Arbor:</strong> <a href="https://docs.google.com/spreadsheets/d/1fRch3vOA4wnoLw2rVCYeP1nK6S9vpsW6sD4vthbktjI/edit?usp=sharing" target="_blank">This document</a> lists things to do in Ann Arbor.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 EREBUS Collaboration
+</footer>
+
+</body>
+</html>
